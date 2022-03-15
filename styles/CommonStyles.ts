@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 import palette from "./palette";
 
-const HeaderContainer = styled.div`
+const CommonSampleContainer = styled.div`
   position: sticky; // 상단 고정
   width: 100%;
   height: 80px;
@@ -105,18 +105,6 @@ const HeaderContainer = styled.div`
   }
 `;
 
-const Container2 = styled.div`
-  width: 100%;
-  padding: 0 80px;
-
-  h2 {
-    width: 557px;
-    margin: 80px 0 60px;
-    font-size: 50px;
-    color: ${palette.black};
-  }
-`;
-
-const commonStyle = { HeaderContainer, Container2 };
+const commonStyle = { CommonSampleContainer};
 
 export default commonStyle;

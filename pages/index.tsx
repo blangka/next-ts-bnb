@@ -1,10 +1,8 @@
 import React from "react";
-import Header from "../components/Header";
+import { NextPage } from "next";
 
-const index: React.FC = () => {
-    return (
-        <Header />
-    );
+const index: NextPage = () => {
+    return <div>hello</div>;
 };
 
 export default index;

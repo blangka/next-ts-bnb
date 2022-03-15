@@ -4,6 +4,9 @@ module.exports = {
         es6: true,
     },
     extends: ["airbnb"],
+    globals: {
+        JSX: true,
+    },
     parser: "@typescript-eslint/parser",
     parserOptions: {
         ecmaFeatures: {
@@ -47,6 +50,7 @@ module.exports = {
         indent: "off",
         "react/jsx-indent": "off",
         "react/jsx-indent-props": "off",
+        "react/require-default-props": "off",
         "react/function-component-definition": [
             2,
             {
