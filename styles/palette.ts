@@ -1,4 +1,5 @@
 export default {
+  white: "#FFFFFF",
   cardinal: "#a41850",
   davidson_orange: "#c13515",
   tawny: "#d93900",
