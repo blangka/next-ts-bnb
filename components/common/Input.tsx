@@ -34,7 +34,6 @@ const Container = styled.div<InputContainerProps>`
   }
   svg {
     position: absolute;
-    padding-top: 17px;
     right: 11px;
     height: 46px;
   }
